@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import StartPage from './components/StartPage';
-import LoginPage from './components/LoginPage';
-import Dashboard from './components/Dashboard';
-import ProtectedRoutes from './components/ProtectedRoutes';
+import StartPage from './pages/StartPage';
+import LoginPage from './pages/LoginPage';
+import Dashboard from './pages/Dashboard';
+import ProtectedRoutes from './pages/ProtectedRoutes';
 
 function App() {
 

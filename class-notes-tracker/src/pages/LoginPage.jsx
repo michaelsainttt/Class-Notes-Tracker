@@ -1,8 +1,11 @@
+import { useNavigate } from "react-router-dom"
 
 
 function LoginPage(){
+    const navigate = useNavigate();
     return(
         <div className = "flex items-center justify-center min-h-screen bg-[url('https://images.unsplash.com/photo-1591123120675-6f7f1aae0e5b?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y29sbGVnZSUyMGNhbXB1c3xlbnwwfHwwfHx8MA%3D%3D')] bg-cover">
+            <h1 className = "absolute top-4 left-6 text-3xl text-white drop-shadow-2xl hover:cursor-pointer" onClick = {() => navigate("/")}>NoteSync</h1>
             <div className = "w-full max-w-sm bg-white rounded-3xl shadow-xl p-8" >
                 <h1 className = "text-center text-4xl font-bold mb-6">Login</h1>
 

@@ -1,5 +1,5 @@
-import Hero from './Hero.jsx'
-import About from './About.jsx'
+import Hero from '../components/Hero.jsx'
+import About from '../components/About.jsx'
 function StartPage() {
   return(
         <>
